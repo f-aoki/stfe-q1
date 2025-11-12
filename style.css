@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+/* ページ全体 CSS　*/
+body{
+	font-size: 16px;
+	background-color: ivory;
+	background-image: url(images/gold_back.jpg);
+	background-repeat: repeat-y;
+}
+
+/* リセット　CSS　*/
+h1,h2,h3,ul,li,p{
+	margin: 0;
+	padding: 0;
+}
+
+/* ヘッダー CSS　*/
+header{
+	width: 640px;
+	background-color: bisque;
+} 
+h1{
+	margin-left: 20px;
+	font-size: 32px;
+	color:crimson;
+}
+header p{
+	margin-left: 20px;
+}
+
+/* ナビゲーション CSS　*/
+nav {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	overflow: hidden;
+	background-color: burlywood;
+}
+nav ul{
+	list-style: none;
+}
+nav li{
+	width: 188px;
+	height: 38px;
+	margin-right: 10px;
+	padding: 5px; 
+	line-height: 38px;
+	float: left;					/*  ＜設問３＞  */ 
+	border: solid 1px brown;
+	background-color: bisque;
+}
+
+/* メインコンテンツ CSS　*/
+main {
+	clear: both;
+	width: 630px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	background-color: antiquewhite;
+	overflow: hidden;
+}
+h2{
+	font-size: 24px;
+	color:darkred;
+}
+.material{
+	width: 200px;
+	margin-top: 20px;
+	margin-right: 10px;
+	float: left;				/*  ＜設問３＞  */
+	background-color: burlywood;
+}
+.material img{
+	display: block;
+}
+h3{
+	font-size: 20px;
+	color: brown;
+}
+
+/* フッター CSS　*/
+footer{
+	clear: both;
+	width: 600px;
+	padding:20px;
+	text-align: right;
+	background-color: bisque;
+}
